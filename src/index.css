@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --blue-color: #204da3;
+  --light-blue-color: #e9f1fd;
+  --gyay-p: #1d1c1c;
+}
+
+/* Roboto-font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+input , .checkbox {
+  box-shadow: 0 4px 6px var(--light-blue-color);
+  outline: none;
+  transition: 0.3s ;
+}
+input:hover , .checkbox:hover{
+  border: 1px solid var(--blue-color);
+  background-color: var(--light-blue-color);
+}

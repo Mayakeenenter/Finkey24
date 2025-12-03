@@ -1,0 +1,16 @@
+.All-section {
+  width: 100%;
+  height: calc(100vh - 98.3px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width:1000px) {
+  .All-section{
+    flex-direction: column;
+  }
+  .slider {
+    width: 100% !important;
+  }
+}

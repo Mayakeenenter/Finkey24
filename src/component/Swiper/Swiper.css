@@ -1,0 +1,18 @@
+
+.slider {
+  background-color: var(--light-blue-color);
+  height: 100%;
+  width: 65%;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-slide img{
+    width: 50%;
+}
+.div-slide p{
+  margin-bottom: 40px;
+}
+  

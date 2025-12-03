@@ -1,0 +1,46 @@
+.header{
+    padding: 20px 20px 0 24px ;
+    background: rgb(245, 245, 245);
+}
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p-header {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: rgba(33, 33, 33, 0.6);
+  margin-bottom: 4px;
+}
+
+.h2-header{
+    font-size: 20px;
+    color: rgb(33, 33, 33);
+}
+.all-icon-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.icon-header{
+    color:rgba(0, 0, 0, 0.54);
+    width: 24px;
+    height: 24px;
+}
+.all-icon-header div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.all-icon-header div:hover{
+    background-color: var(--light-blue-color);
+}
+.icon-header:hover{
+    color: var(--blue-color);
+}

@@ -1,0 +1,105 @@
+.form {
+  width: 35%;
+  height: 100%;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 10% 20px 0px;
+  overflow-y: auto;
+  h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgb(51, 51, 51);
+  }
+  p {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 20px;
+  }
+}
+.checkbox {
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  height: 60px;
+  padding: 12px;
+
+}
+.checkbox-two{
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px;
+  margin-bottom: 25px;
+  gap: 15px;
+  cursor: pointer;
+  height: 55px;
+  padding: 10px;
+  width: 100%;
+}
+.one-btn {
+  width: 100%;
+  padding: 12px 0px;
+  background-color: var(--blue-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.one-btn:hover{
+  transform: translate(1px , 1px);
+}
+.div-mt{
+  margin-top: 5px;
+  text-align: center;
+}
+.login-pargraph {
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+  margin-top: 20px;
+  text-align: center;
+}
+.footer-login{
+     margin-bottom: 100px;
+    padding: 20px;
+}
+.form-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+        div{
+            input{
+                margin-right: 10px;
+            }
+        }
+}
+.img-frame{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 1440px) {
+  .form{
+    h2{
+      font-size: 20px;
+    }
+  }
+}
+@media (max-width:1000px) {
+  .form , .form-three{
+    width: 100% !important;
+  }
+}
