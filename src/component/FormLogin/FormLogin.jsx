@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./FormLogin.css";
 import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
 
 function FormLogin() {
   const [selectedRole, setSelectedRole] = useState("");
@@ -15,8 +16,18 @@ function FormLogin() {
   const openLogin = () => {
     setopen(true);
   };
-  const GoToDashboard = () => {
-    navigate("dashboard");
+  const GoToDashboard = (event) => {
+    event.preventDefault();
+    axios.post("https://website-8d3fe9e3.kfx.pkr.mybluehost.me/api/login", {
+        email: email,
+        password: password,
+    }
+    )
+      .then((res) => {
+        console.log(res);
+        navigate("dashboard");
+      })
+      .catch((error) => console.log(error));
   };
   const isButtonDisabled = !selectedRole;
   return (

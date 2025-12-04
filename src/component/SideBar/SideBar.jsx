@@ -13,7 +13,8 @@ function SideBar() {
   return (
     <div className="sidebar">
       <div className="logo-side">
-        <img src="/public/image/logo2.png" alt="Logo" className=" logo" />
+        <h2>Finkey24</h2>
+        {/* <img src="/public/image/logo2.png" alt="Logo" className=" logo" /> */}
       </div>
       <nav>
         <ul className="list-side">
